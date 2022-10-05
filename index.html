@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+@font-face {
+    font-family: Outfit;
+    src:url("./fonts/Outfit/static/Outfit-Bold.ttf");
+}
+
+    body {
+      background-color: #F2F2F2;
+      font-family: Outfit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     border: 0;
+     flex-wrap: wrap;
+     flex-direction: column;
+     margin-top: 85px;
+     width: 320px;
+     height: 497px;
+/* White */
+
+background: #FFFFFF;
+box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+border-radius: 20px;
+    }
+
+    .img{
+     
+width: 288px;
+height: 288px;
+margin: 0;
+margin-bottom: 24px;
+
+background: #2C7DFA;
+border-radius: 10px;
+    }
+
+    .title{
+      margin: 0;
+      margin-bottom: 16px;
+height: 56px;
+
+top: calc(50% - 56px/2 - 36.5px);
+
+/* Heading */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+
+/* Dark Navy */
+
+color: #1F314F;
+    }
+
+    .paragraph{
+      margin: 0;
+      margin-bottom: 24px;
+height: 57px;
+
+top: calc(50% - 57px/2 + 36px);
+
+/* Body */
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.1875px;
+
+/* Grey */
+
+color: #7D889E;
+
+    }
+  </style>
+</head>
+<body>
+
+
+  
+  <div class="container">
+    <img class="img" src="./images/image-qr-code.png" alt="qr code"></img>
+    <h1 class="title">Improve your front-end<br/> skills by building projects</h1>
+    <p class="paragraph">Scan the QR code to visit Frontend <br/> Mentor and take your coding skills to<br/>  the next level</p>
+
+  </div>
+</body>
+</html>
